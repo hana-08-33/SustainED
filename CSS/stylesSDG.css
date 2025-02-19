@@ -28,9 +28,19 @@ div.intro{
   padding-left: 4em;
   padding-top:4em;
   padding-bottom:4em;
-  color:#a86f03;
+  color:#446366;
 }
  .changeImage{
   border-radius:80px;
   width:400px;
+}
+p{
+  font-size: 22px;
+}
+div.action{
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-top:4em;
+  padding-bottom:4em;
+  color:#446366;
 }
