@@ -44,3 +44,26 @@ div.action{
   padding-bottom:4em;
   color:#446366;
 }
+.SDG123{
+  width:400px;
+  border-radius:80px;
+  transition: opacity 0.3s;
+}
+.SDG123:hover {
+  opacity: 70%;
+}
+.SDG456{
+  width:400px;
+  border-radius:80px;
+  transition: opacity 0.3s;
+}
+.SDG456:hover {
+  opacity: 70%;
+}
+div.explore{
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-top:4em;
+  padding-bottom:4em;
+  color:#446366;
+}
