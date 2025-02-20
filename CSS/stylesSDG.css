@@ -121,3 +121,15 @@ div.explore{
 .list{
   color:#446366;
 }
+.sustainEDtext{
+  padding-right:4em;
+  padding-left:4em;
+  padding-bottom: 6em;
+}
+.newsletter-form{
+  padding-right:4em;
+  padding-left:4em;
+}
+hr.dashed{
+   border-top: 3px dashed #bbb;
+}
