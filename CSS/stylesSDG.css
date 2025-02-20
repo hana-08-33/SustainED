@@ -36,6 +36,7 @@ div.intro{
 }
 p{
   font-size: 22px;
+  color:#446366;
 }
 div.action{
   padding-right: 4em;
@@ -113,4 +114,10 @@ div.explore{
 }
 .h1{
     color:#446366;
+}
+.solidarityImage{
+  padding-right: 4em;
+}
+.list{
+  color:#446366;
 }
