@@ -117,11 +117,15 @@ div.explore{
 }
 .solidarityImage{
   padding-right: 4em;
+  padding-left: 4em;
+  margin-top: 8em;
 }
 .list{
   color:#446366;
 }
 .sustainEDtext{
+
+  padding-top: 4em;
   padding-right:4em;
   padding-left:4em;
   padding-bottom: 6em;
@@ -132,4 +136,13 @@ div.explore{
 }
 hr.dashed{
    border-top: 3px dashed #bbb;
+}
+.linkedinBtn{
+  width: 30px;
+  margin-left: 2em;
+  border-radius: 3px;
+}
+.achieveText{
+  padding-left: 4em;
+  font-size: 22px;
 }
