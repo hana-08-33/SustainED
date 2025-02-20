@@ -67,3 +67,50 @@ div.explore{
   padding-bottom:4em;
   color:#446366;
 }
+.aboutImage{
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-top:1em;
+  padding-bottom:4em;
+  width: 900px;
+}
+.whoText{
+  padding-right: 4em;
+  padding-left: 8em;
+  padding-top:8em;
+  padding-bottom:4em;
+  color:#446366;
+}
+.visionText{
+  padding-right: 2em;
+  padding-left: 12em;
+  padding-top:4em;
+  padding-bottom:4em;
+  color:#446366;
+}
+h1{
+  color:#446366;
+}
+.sdg4{
+  padding-left: 4em;
+  padding-top:4em;
+  padding-bottom:4em;
+  color:#446366;
+}
+.sdg8{
+  padding-left: 2em;
+  padding-top:4em;
+  padding-bottom:4em;
+  color:#446366;
+}
+.sdg10{
+  padding-top:4em;
+  padding-bottom:4em;
+  color:#446366;
+}
+.sdg17{
+  padding-top:4em;
+  padding-bottom:4em;
+  padding-right:4em;
+  color:#446366;
+}
