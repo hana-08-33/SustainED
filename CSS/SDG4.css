@@ -34,7 +34,7 @@ background-color: #f8f8f8;
 :root {
 --primary-color: #8e2424;
 --secondary-color: #6a1b1b;
---light-color: #ef9a9a; 
+--light-color: #ef9a9a;
 }
 
 header {
@@ -124,7 +124,7 @@ align-items: flex-start;
 }
 
 .problem-image {
-max-width: 40%;
+width: 10%;
 margin-right: 2rem;
 }
 
