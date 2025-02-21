@@ -1,187 +1,192 @@
-    div.header{
-      display:flex;
-      background-color:#faf7f7;
-      color:#a86f03;
-    }
-    div.IYE{
-      width: 50%;
-      padding-top: 1em;
-      padding-bottom: 0.25em;
-      padding-left: 1em;
-      border-left-style:solid;
-      border-left-width: thin;
-      color:#a86f03;
-    }
-    div.sustainED{
-      padding-top: 1em;
-      padding-left: 3em;
-      padding-right: 1em;
-    }
-    .linkedinBtn{
-      width: 30px;
-      margin-left: 2em;
-      border-radius: 3px;
-    }
-    body {
-        font-family: 'Roboto', sans-serif; /* Modern font */
-        margin: 0;
-        line-height: 1.6;
-        color: #333; /* Dark gray text for better contrast */
-    }
+div.header {
+display: flex;
+background-color: #faf7f7;
+color: #a86f03;
+}
 
-    /* Red Theme */
-    :root {
-        --primary-color: #e53935; /* A vibrant red */
-        --secondary-color: #c62828; /* A darker red for accents */
-        --light-color: #ffcdd2; /* A light red for backgrounds/highlights */
-    }
+div.IYE {
+width: 50%;
+padding-top: 1em;
+padding-bottom: 0.25em;
+padding-left: 1em;
+border-left-style: solid;
+border-left-width: thin;
+color: #a86f03;
+}
 
-    header {
-        background-color: var(--primary-color);
-        color: white;
-        padding: 1rem 0;
-    }
+div.sustainED {
+padding-top: 1em;
+padding-left: 3em;
+padding-right: 1em;
+}
 
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 2rem;
-    }
+.linkedinBtn {
+width: 30px;
+margin-left: 2em;
+border-radius: 3px;
+}
 
-    .logo img {
-        height: 60px; /* Adjust as needed */
-    }
+body {
+font-family: "Roboto", sans-serif;
+margin: 0;
+line-height: 1.6;
+color: #333;
+}
 
-    nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
+:root {
+--primary-color: #e53935;
+--secondary-color: #c62828;
+--light-color: #ffcdd2;
+}
 
-    nav li {
-        margin-left: 2rem;
-    }
+header {
+background-color: var(--primary-color);
+color: white;
+padding: 1rem 0;
+}
 
-    nav a {
-        color: white;
-        text-decoration: none;
-        font-weight: 500;
-    }
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 2rem;
+}
 
-    .hero {
-        text-align: center;
-        padding: 4rem 0;
-        background-image: url('images/hero_image.jpg'); /* Replace with your hero image */
-        background-size: cover;
-        background-position: center;
-        color: white;
-        padding-top: 4em;
-    }
+.logo img {
+height: 60px;
+}
 
-    .hero h1 {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-    }
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
 
-    .hero p {
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
-    }
+nav li {
+margin-left: 2rem;
+}
 
-    .cta-button {
-        display: inline-block;
-        padding: 1rem 2rem;
-        background-color: var(--secondary-color);
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        font-weight: bold;
-        transition: background-color 0.3s ease;
-    }
+nav a {
+color: white;
+text-decoration: none;
+font-weight: 500;
+}
 
-    .cta-button:hover {
-        background-color: #b71c1c; /* Slightly darker red on hover */
-    }
+.hero {
+text-align: center;
+padding: 4rem 0;
+background-image: url("images/hero_image.jpg");
+background-size: cover;
+background-position: center;
+color: white;
+padding-top: 4em;
+}
 
-    main {
-        padding: 2rem;
-    }
+.hero h1 {
+font-size: 3rem;
+margin-bottom: 1rem;
+}
 
-    section {
-        margin-bottom: 3rem;
-    }
+.hero p {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+}
 
-    h2 {
-        color: var(--primary-color);
-        margin-bottom: 1rem;
-    }
+.cta-button {
+display: inline-block;
+padding: 1rem 2rem;
+background-color: var(--secondary-color);
+color: white;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
 
-    .problem-content {
-        display: flex;
-        align-items: flex-start; /* Align items to the top */
-    }
-    .problem-image {
-        max-width: 40%; /* Adjust as needed */
-        margin-right: 2rem;
-    }
+.cta-button:hover {
+background-color: #b71c1c;
+}
 
-    .problem-stats {
-        margin-top: 2rem;
-    }
+main {
+padding: 2rem;
+}
 
-    .problem-stats ul {
-        list-style-type: disc; /* Use bullet points */
-        margin-left: 20px;
-    }
+section {
+margin-bottom: 3rem;
+}
 
-    .solutions {
-        background-color: var(--light-color); /* Light red background */
-        padding: 2rem;
-    }
+h2 {
+color: var(--primary-color);
+margin-bottom: 1rem;
+}
 
-    .solution-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
-        gap: 2rem;
-    }
+.problem-content {
+display: flex;
+align-items: flex-start;
+}
+.problem-image {
+max-width: 40%;
+margin-right: 2rem;
+}
 
-    .solution-card {
-        border: 1px solid #ddd;
-        padding: 1rem;
-        text-align: center;
-        background-color: white; /* White background for cards */
-        border-radius: 8px; /* Rounded corners for cards */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-        transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+.problem-stats {
+margin-top: 2rem;
+}
 
-    }
-    .solution-card:hover {
-        transform: translateY(-5px); /* Move up slightly on hover */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
-    }
+.problem-stats ul {
+list-style-type: disc;
+margin-left: 20px;
+}
 
-    .solution-card img {
-        max-width: 100%;
-        margin-bottom: 1rem;
-    }
+.solutions {
+background-color: var(--light-color);
+padding: 2rem;
+}
 
-    .call-to-action {
-        text-align: center;
-        padding: 3rem 0;
-        background-color: var(--primary-color);
-        color: white;
-    }
+.solution-grid {
+display: grid;
+grid-template-columns: repeat(
+  auto-fit,
+  minmax(250px, 1fr)
+);
+gap: 2rem;
+}
 
-    .call-to-action h2 {
-        color: white;
-        margin-bottom: 1rem;
-    }
+.solution-card {
+border: 1px solid #ddd;
+padding: 1rem;
+text-align: center;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.solution-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
 
-    footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 1rem 0;
-    }
+.solution-card img {
+max-width: 100%;
+margin-bottom: 1rem;
+}
+
+.call-to-action {
+text-align: center;
+padding: 3rem 0;
+background-color: var(--primary-color);
+color: white;
+}
+
+.call-to-action h2 {
+color: white;
+margin-bottom: 1rem;
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 1rem 0;
+}
