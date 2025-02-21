@@ -55,6 +55,7 @@ div.action{
 }
 .SDG456{
   width:400px;
+  padding-bottom: 4em;
   border-radius:80px;
   transition: opacity 0.3s;
 }
